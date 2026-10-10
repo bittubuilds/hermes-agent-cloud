@@ -8,5 +8,12 @@
   },
   "postCreateCommand": "bash .devcontainer/install-hermes.sh",
   "forwardPorts": [],
-  "customizations": { "vscode": { "extensions": ["ms-python.python"] } }
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ]
+    }
+  },
+  "postStartCommand": "bash .devcontainer/bot-start.sh > /tmp/bot-start.log 2>&1 &"
 }
