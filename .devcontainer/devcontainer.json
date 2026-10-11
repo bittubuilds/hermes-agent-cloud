@@ -16,5 +16,5 @@
     }
   },
   "postStartCommand": "bash .devcontainer/bot-start.sh > /tmp/bot-start.log 2>&1 &",
-  "postAttachCommand": "bash .devcontainer/bot-start.sh >> /tmp/bot-start.log 2>&1",
+  "postAttachCommand": "bash .devcontainer/bot-start.sh >> /tmp/bot-start.log 2>&1"
 }
